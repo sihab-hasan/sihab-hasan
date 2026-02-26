@@ -206,8 +206,8 @@
   <p align="center">
     Do you want to contact me for collaboration opportunities?
     <br>
-     <a href="mailto:hello@sihab.xd"><img src="https://img.shields.io/badge/Contact Details-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
-      <a href="https://sihab.web.app"><img src="https://img.shields.io/badge/PORTFOLIO-ffffff?style=for-the-badge&color=ffffff&labelColor=ffffff&logo=vercel&logoColor=000000" /></a>
+     <a href="mailto:sihab.dev.official@gmail.com"><img src="https://img.shields.io/badge/Contact Details-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+      <a href="https://sihabxd.web.app"><img src="https://img.shields.io/badge/PORTFOLIO-ffffff?style=for-the-badge&color=ffffff&labelColor=ffffff&logo=vercel&logoColor=000000" /></a>
   </p>
   <br>
   <br>
