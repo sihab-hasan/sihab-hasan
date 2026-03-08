@@ -9,13 +9,16 @@
   <kbd>REST API DESIGN</kbd> &nbsp;·&nbsp;
   <kbd>CLEAN ARCHITECTURE</kbd>
 </p>
-  <p>
-    <img src="https://img.shields.io/github/followers/sihab-hasan?style=social" />
-    &nbsp;&nbsp;
-    <img src="https://img.shields.io/github/stars/sihab-hasan?style=social" />
-    &nbsp;&nbsp;
-    <img src="https://img.shields.io/github/watchers/sihab-hasan/sihab-hasan?style=social" />
-  </p>
+
+<p align="center">
+
+[![Followers](https://img.shields.io/github/followers/sihab-hasan?style=social)](https://github.com/sihab-hasan?tab=followers)
+&nbsp;&nbsp;
+[![Stars](https://img.shields.io/github/stars/sihab-hasan?style=social)](https://github.com/sihab-hasan?tab=stars)
+&nbsp;&nbsp;
+[![Watchers](https://img.shields.io/github/watchers/sihab-hasan/sihab-hasan?style=social)](https://github.com/sihab-hasan/sihab-hasan/watchers)
+
+</p>
   
 </div>
 
