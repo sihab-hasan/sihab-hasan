@@ -26,19 +26,22 @@
 
 <div align="center" style="line-height:2;">
 
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white&height=20)](https://www.cprogramming.com/)
-[![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white&height=20)](https://isocpp.org/)
-[![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white&height=20)](https://www.java.com/)
+[![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white&height=20)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&height=20)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white&height=20)](https://www.php.net/)
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&height=20)](https://www.python.org/)
 [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white&height=20)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white&height=20)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&height=20)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white&height=20)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB&height=20)](https://reactjs.org/)
-[![Flutter](https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white&height=20)](https://flutter.dev/)
 [![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white&height=20)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB&height=20)](https://expressjs.com/)
+[![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white&height=20)](https://laravel.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white&height=20)](https://www.mongodb.com/)
-[![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white&height=20)](https://firebase.google.com/)
+[![PostgreSQL](https://img.shields.io/badge/postgresql-%234169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white&height=20)](https://www.postgresql.org/)
+[![Redis](https://img.shields.io/badge/redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white&height=20)](https://redis.io/)
+[![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white&height=20)](https://tailwindcss.com/)
+[![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white&height=20)](https://www.docker.com/)
 [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&height=20)](https://git-scm.com/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&height=20)](https://github.com/)
 [![VS Code](https://img.shields.io/badge/vscode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white&height=20)](https://code.visualstudio.com/)
@@ -54,12 +57,12 @@
       <td align="left">
         <h3 style="margin-bottom: 5px;">ARCHITECTURE</h3>
         <p>
-        I design and build production-ready <b>MERN stack</b> applications with structured backend architecture and clean frontend implementation. 
-        My workflow focuses on modular code, RESTful API standards, authentication systems (JWT), and scalable MongoDB schema design.
+        I design and build production-ready <b>full-stack</b> applications with structured backend architecture and clean frontend implementation. 
+        My workflow focuses on modular monorepo design, RESTful API standards, role-based authentication systems, and scalable database schema design.
         </p>
         <br>
-        <p><b>⚡ CURRENT FOCUS:</b> Building secure REST APIs, role-based authentication systems, and optimized MongoDB data models.</p>
-        <p><b>🎯 WORKING ON:</b> A full-featured service marketplace platform with Admin/User dashboards, booking logic, and scalable backend architecture.</p>
+        <p><b>⚡ CURRENT FOCUS:</b> WorkForce — a modular, multi-tenant ERP platform (Next.js + Laravel) with role-based access and an AI copilot.</p>
+        <p><b>🎯 WORKING ON:</b> Ticket Bro — a full-featured MERN-stack event ticketing platform with real-time messaging and multi-role dashboards.</p>
         <br>
         <a href="mailto:sihab.ed.official@gmail.com"><img src="https://img.shields.io/badge/LET'S CONNECT →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
         &nbsp;&nbsp;
@@ -83,60 +86,33 @@
   <table>
     <tr>
       <td width="300" align="center">
-        <h4><kbd>MERN AUTH SYSTEM</kbd></h4>
-        <p>Secure Authentication & Authorization Platform</p>
-        <sub>MongoDB • Express • React • Node.js • JWT</sub>
+        <h4><kbd>WORKFORCE ERP</kbd></h4>
+        <p>Multi-Tenant Business Operations Platform</p>
+        <sub>Next.js • Laravel • TypeScript • Turborepo • PostgreSQL</sub>
         <br><br>
-        <a href="#"><img src="https://img.shields.io/badge/VIEW CASE →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+        <a href="https://github.com/sihab-hasan/workforce-erp"><img src="https://img.shields.io/badge/VIEW REPO →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
       </td>
       <td width="300" align="center">
-        <h4><kbd>SERVICE MARKETPLACE</kbd></h4>
-        <p>Full-Stack Booking & Service Management System</p>
-        <sub>MERN Stack • REST API • Dashboard • Role-Based Access</sub>
+        <h4><kbd>TICKET BRO</kbd></h4>
+        <p>MERN Event Ticketing Platform</p>
+        <sub>MongoDB • Express • React • Node.js • Socket.IO</sub>
         <br><br>
-        <a href="#"><img src="https://img.shields.io/badge/VIEW CASE →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+        <a href="https://github.com/sihab-hasan/ticket-bro"><img src="https://img.shields.io/badge/VIEW REPO →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
       </td>
       <td width="300" align="center">
-        <h4><kbd>API LAB</kbd></h4>
-        <p>Backend Experiments & Integration Projects</p>
-        <sub>Node.js • Express • MongoDB • Postman Testing</sub>
+        <h4><kbd>SNAKE ARENA</kbd></h4>
+        <p>Full-Stack Multiplayer Snake Game</p>
+        <sub>React • Node.js • MongoDB • Redis</sub>
         <br><br>
-        <a href="#"><img src="https://img.shields.io/badge/VIEW CASE →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+        <a href="https://github.com/sihab-hasan/snake-game"><img src="https://img.shields.io/badge/VIEW REPO →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
       </td>
     </tr>
   </table>
 
   <br>
 
-  <table>
-    <tr>
-      <td width="300" align="center">
-        <h4><kbd>REACT DASHBOARD</kbd></h4>
-        <p>Modern Admin Dashboard Interface</p>
-        <sub>React • Context API • Protected Routes</sub>
-        <br><br>
-        <a href="#"><img src="https://img.shields.io/badge/VIEW CASE →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
-      </td>
-      <td width="300" align="center">
-        <h4><kbd>DATABASE DESIGN</kbd></h4>
-        <p>Optimized MongoDB Schema Architecture</p>
-        <sub>MongoDB • Mongoose • Indexing • Aggregation</sub>
-        <br><br>
-        <a href="#"><img src="https://img.shields.io/badge/VIEW CASE →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
-      </td>
-      <td width="300" align="center">
-        <h4><kbd>FULLSTACK EXPERIMENTS</kbd></h4>
-        <p>End-to-End Application Prototypes</p>
-        <sub>React • Node.js • Express • MongoDB</sub>
-        <br><br>
-        <a href="#"><img src="https://img.shields.io/badge/VIEW CASE →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
-      </td>
-    </tr>
-  </table>
-
-  <br>
   <p align="center">
-    <a href="https:"><img src="https://img.shields.io/badge/EXPLORE ALL PROJECTS →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+    <a href="https://github.com/sihab-hasan?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE ALL PROJECTS →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
   </p>
 </details>
 
@@ -209,10 +185,10 @@
   <p align="center">
     Do you want to contact me for collaboration opportunities?
     <br>
-     <a href="mailto:sihab.dev.official@gmail.com"><img src="https://img.shields.io/badge/Contact Details-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+     <a href="mailto:sihabsiuuu@gmail.com"><img src="https://img.shields.io/badge/Contact Details-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
       <a href="https://sihabxd.web.app"><img src="https://img.shields.io/badge/PORTFOLIO-ffffff?style=for-the-badge&color=ffffff&labelColor=ffffff&logo=vercel&logoColor=000000" /></a>
   </p>
   <br>
   <br>
-  <p><b>© 2025 Sihab Hasan</b></p>
+  <p><b>© 2026 Sihab Hasan</b></p>
   </div>
