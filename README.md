@@ -66,7 +66,7 @@
         <br>
         <a href="mailto:sihab.ed.official@gmail.com"><img src="https://img.shields.io/badge/LET'S CONNECT →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
         &nbsp;&nbsp;
-        <a href="https://sihab-hasan.web.app"><img src="https://img.shields.io/badge/VIEW PORTFOLIO →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
+        <a href="https://sihabhasan.vercel.app/"><img src="https://img.shields.io/badge/VIEW PORTFOLIO →-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
         <br><br>
       </td>
       <td width="400" align="right">
@@ -186,7 +186,7 @@
     Do you want to contact me for collaboration opportunities?
     <br>
      <a href="mailto:sihabsiuuu@gmail.com"><img src="https://img.shields.io/badge/Contact Details-ffffff?style=for-the-badge&labelColor=ffffff&color=ffffff" /></a>
-      <a href="https://sihabxd.web.app"><img src="https://img.shields.io/badge/PORTFOLIO-ffffff?style=for-the-badge&color=ffffff&labelColor=ffffff&logo=vercel&logoColor=000000" /></a>
+      <a href="https://sihabhasan.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-ffffff?style=for-the-badge&color=ffffff&labelColor=ffffff&logo=vercel&logoColor=000000" /></a>
   </p>
   <br>
   <br>
