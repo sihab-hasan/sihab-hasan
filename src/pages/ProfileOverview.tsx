@@ -11,29 +11,40 @@ import OverviewLayout from "@/components/layout/OverviewLayout";
 import { Card, CardContent } from "@/components/ui/card";
 import { projects, skills, socials, stats } from "@/data/profile";
 import logo from "@/assets/sihab-logo.png";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const SocialLinks = () => (
-  <nav aria-label="Social links">
-    <Stagger className="flex w-full flex-wrap justify-center gap-2 md:justify-start lg:h-full lg:w-12 lg:flex-col lg:flex-nowrap">
-      {socials.map(({ label, href, icon: Icon, className }) => {
-        const isEmail = href.startsWith("mailto:");
+  <Stagger className="flex w-full flex-wrap justify-center gap-2 md:justify-start lg:h-full lg:w-12 lg:flex-col lg:flex-nowrap">
+    {socials.map(({ label, href, icon: Icon, className }) => {
+      const isEmail = href.startsWith("mailto:");
 
-        return (
-          <StaggerItem key={label}>
-            <a
-              href={href}
-              target={isEmail ? undefined : "_blank"}
-              rel={isEmail ? undefined : "noopener noreferrer"}
-              aria-label={isEmail ? "Send email" : `Open ${label} profile`}
-              className={`flex size-10 items-center justify-center rounded-lg text-base transition-colors duration-150 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${className}`}
+      return (
+        <StaggerItem key={label}>
+          <Tooltip>
+            <TooltipTrigger
+              render={
+                <a
+                  href={href}
+                  target={isEmail ? undefined : "_blank"}
+                  rel={isEmail ? undefined : "noopener noreferrer"}
+                  aria-label={isEmail ? "Send email" : `Open ${label} profile`}
+                  className={`flex size-10 items-center justify-center rounded-lg text-base transition-colors duration-150 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${className}`}
+                />
+              }
             >
               <Icon aria-hidden="true" />
-            </a>
-          </StaggerItem>
-        );
-      })}
-    </Stagger>
-  </nav>
+            </TooltipTrigger>
+
+            <TooltipContent side="right" sideOffset={8} align="center">{isEmail ? "Send email" : label}</TooltipContent>
+          </Tooltip>
+        </StaggerItem>
+      );
+    })}
+  </Stagger>
 );
 
 const Stats = () => (
@@ -176,20 +187,37 @@ const ProfileOverview = () => {
       <div className="my-auto w-full max-w-6xl self-center">
         <header className="grid min-w-0 items-start gap-x-4 gap-y-6 md:grid-cols-12 lg:gap-y-0">
           <Scale
-            className="flex min-w-0 justify-center md:col-span-3 md:justify-start md:pt-3 lg:col-span-2 lg:row-auto lg:pt-6"
-            delay={0.02}
-          >
-            <img
-              src={logo}
-              alt="Sihab Hasan logo"
-              width={552}
-              height={552}
-              loading="eager"
-              decoding="async"
-              draggable={false}
-              className="h-32 w-40 object-contain"
-            />
-          </Scale>
+  className="flex min-w-0 justify-center md:col-span-3 md:justify-start md:pt-3 lg:col-span-2 lg:row-auto lg:pt-6"
+  delay={0.02}
+>
+  <Tooltip>
+    <TooltipTrigger
+      render={
+        <a
+          href="https://sihabhasan.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit Sihab Hasan's Portfolio"
+        />
+      }
+    >
+      <img
+        src={logo}
+        alt="Sihab Hasan logo"
+        width={552}
+        height={552}
+        loading="eager"
+        decoding="async"
+        draggable={false}
+        className="h-32 w-40 object-contain transition-transform duration-300 hover:scale-105"
+      />
+    </TooltipTrigger>
+
+    <TooltipContent side="top" sideOffset={8} align="center">
+      Visit Portfolio
+    </TooltipContent>
+  </Tooltip>
+</Scale>
 
           <Fade
             className="flex min-w-0 justify-center md:col-span-3 md:row-start-2 md:justify-start lg:col-span-1 lg:row-auto"
